@@ -1,52 +1,32 @@
-# Challenge Alura Store (Oracle + Alura)
+# Challenge Telecom X: análise de evasão de clientes (Oracle + Alura)
 
 ## 🔖 Sobre
 
-O projeto **Challenge Alura Store** foi elaborado como critério avaliativo do programa **ONE** _(Oracle Next Education)_, em parceria com a **Alura**, e visa analisar o desempenho de quatro lojas e, com base em dados, identificar qual delas deve ser vendida. Tal análise considerou critérios como faturamento, categorias e mix de produtos, avaliações de clientes e frete médio por loja.
+O projeto **Challenge Telecom X** foi elaborado como critério avaliativo do programa **ONE** _(Oracle Next Education)_, em parceria com a **Alura**, e visa analisar a evasão de clientes da Telecom X, identificando padrões de comportamento e fatores determinantes para o churn. A partir da extração, tratamento e exploração dos dados, busquei fornecer insights estratégicos que possam orientar ações eficazes de retenção e apoiar a tomada de decisão da empresa.
 
 ##  :hammer_and_wrench: Tecnologias
 
 - `Python`
 - `Google Colab`
 - `Pandas`
+- `NumPy`
 - `Matplotlib`
 - `Seaborn` 
 - `Jupyter Notebook`  
-- `Markdown`
+- `Requests/JSON`
 
 ## 📊 Resultados
 
-**Loja 1**
-  - Bom desempenho de faturamento;
-  - Mix de categorias bem distribuído, com destaque em segmentos de maior aderência;
-  - Avaliações de clientes em nível satisfatório;
-  - Produtos mais vendidos sustentam boa parte das vendas;
-  - Frete médio competitivo.
-
-**Loja 2**
-  - Faturamento consistente, próximo da média;
-  - Categorias com vendas equilibradas, sem concentração excessiva;
-  - Avaliações de clientes acima da média, indicando boa experiência;
-  - Produtos mais vendidos bem posicionados no portfólio;
-  - Custo de frete moderado.
-
-**Loja 3**
-  - Faturamento abaixo da média;
-  - Categorias pouco representativas, sem destaque claro de vendas;
-  - Avaliações de clientes inferiores às demais;
-  - Produtos menos vendidos com peso relevante, comprometendo desempenho;
-  - Frete médio mais caro, reduzindo a margem de contribuição.
-
-**Loja 4**
-  - Faturamento sólido, em linha com as melhores lojas;
-  - Forte concentração em determinadas categorias, mas com bom giro;
-  - Avaliações positivas, reforçando a confiança dos clientes;
-  - Produtos mais vendidos geram grande volume de vendas;
-  - Frete médio controlado.
+- **Contratos mensais**: apresentam a maior taxa de evasão, com clientes cancelando precocemente;
+- **Tempo de permanência (tenure)** clientes com menor tempo de contrato são mais propensos a deixar a empresa;
+- **Cobranças totais mais baixas**: associadas a cancelamentos precoces;
+- **Serviços adicionais (segurança online e suporte técnico)**: correlacionados com maior fidelização e menor evasão;
+- **Cobranças mensais elevadas**: aumentam a probabilidade de churn;
+- **Contratos de longo prazo**: mostraram-se eficazes na retenção de clientes.
 
 ## 📌 Conclusão
 
-Com base nesse conjunto de informações obtidas através das ferramentas e metedologias supracitadas, cheguei à conclusão de que **a Loja 3 deve ser vendida**. Ela reúne os piores indicadores relativos: faturamento abaixo da média, avaliações menos favoráveis e frete mais caro. Vender essa loja permitirá que o Senhor João mantenha em operação apenas as unidades mais lucrativas, melhor avaliadas e mais eficientes logisticamente, fortalecendo a saúde geral do negócio.
+Com base nesse conjunto de informações obtidas através das ferramentas e metedologias supracitadas, concluo que a evasão de clientes na Telecom X está fortemente relacionada ao perfil contratual e ao nível de engajamento com os serviços. Clientes com contratos mensais e menor tempo de permanência apresentam maior propensão ao cancelamento, enquanto aqueles que aderem a planos de longo prazo ou utilizam serviços adicionais demonstram maior fidelidade. A partir desses insights, fica evidente que estratégias de retenção devem priorizar o fortalecimento do relacionamento nos primeiros meses, incentivar a migração para contratos mais duradouros e agregar valor por meio de benefícios adicionais, contribuindo para a redução significativa do churn..
 
 ## :computer: Desenvolvedor
 
